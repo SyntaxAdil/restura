@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="flex gap-8 items-center justify-center ">
         {SOCIAL_MEDIA_LINKS.map((links, index) => {
           return (
-            <a href={links.href} key={index}>
+            <a href={links.href} key={index} target="_blank">
               {links.icon}
             </a>
           );

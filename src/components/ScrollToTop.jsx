@@ -16,7 +16,7 @@ export const ScrollToTop = () => {
   }, []);
 
   const scrollToTop = () => {
-    setIsShowing(false);
+    
     window.scrollTo({
       top: 0,
       behavior: "smooth",
