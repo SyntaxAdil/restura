@@ -6,6 +6,7 @@ export const Hero = () => {
     <section className="relative top-0 h-screen w-full ">
       <video
         src={heroVideo}
+        preload="metadata"
         autoPlay
         loop
         playsInline

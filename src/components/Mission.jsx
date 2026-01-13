@@ -9,6 +9,7 @@ export const Mission = () => {
       <div className="relative w-full overflow-x-hidden lg:min-h-screen h-auto">
         <video
           src={video}
+          preload="metadata"
           autoPlay
           muted
           playsInline
