@@ -21,6 +21,7 @@ export const Navbar = () => {
         behavior: "smooth",
       });
     }
+    setIsMenuBar(!isMenuBar)
   };
 
   return (
@@ -28,7 +29,7 @@ export const Navbar = () => {
       <div className="container flex justify-between items-center w-full lg:max-w-200 mx-auto backdrop-blur-lg rounded-lg lg:rounded-full p-4  lg:shadow-2xl ">
         <div className="flex items-center">
           <a href="#">
-            <img src={logo} alt="logo " width={80} />
+            <img src={logo} alt="logo " className="w-25" />
           </a>
         </div>
         <ul className=" gap-8 items-center hidden lg:flex">
