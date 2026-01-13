@@ -5,6 +5,7 @@ import {About} from "./components/About"
 import {Mission} from "./components/Mission"
 import {Experties} from "./components/Experties"
 import {Review} from "./components/Review"
+import {Contact} from "./components/Contact"
 function App() {
   return (
     <section className="overflow-x-hidden text-neutral-200 antialiased">
@@ -16,6 +17,7 @@ function App() {
         <Mission />
         <Experties />
         <Review />
+        <Contact />
 
       </main>
       
