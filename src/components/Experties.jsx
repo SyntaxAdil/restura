@@ -1,7 +1,7 @@
 import { CUSINES } from "../constants/index";
 export const Experties = () => {
   return (
-    <section id="expertise">
+    <section id="expertise" className="mt-20">
       <h1 className="text-4xl sm:text-5xl lg:text-4xl text-center  mb-20">
         Our Experties
       </h1>
@@ -9,7 +9,7 @@ export const Experties = () => {
         {CUSINES.map((card, index) => {
           return (
             <div
-              className="flex gap-4 items-center py-4  border-b-4 border-dotted border-neutral-800 group "
+              className="flex gap-4 items-center py-4  border-b-4 border-dotted border-neutral-800 group hover:border-rose-100 transition-all duration-400"
               key={index}
             >
               <div className="ps-8 shrink-0 ">

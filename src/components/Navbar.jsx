@@ -24,7 +24,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-4 left-0 right-0 z-50 " >
+    <nav className="fixed top-4 left-0 right-0 z-50 ">
       <div className="container flex justify-between items-center w-full lg:max-w-200 mx-auto backdrop-blur-lg rounded-lg lg:rounded-full p-4  lg:shadow-2xl ">
         <div className="flex items-center">
           <a href="#">
@@ -37,9 +37,9 @@ export const Navbar = () => {
               <li key={index}>
                 <a
                   href={`#${items.targetId}`}
-                  className={`text-sm text-neutral-400 transition-colors ${
+                  className={`text-sm text-neutral-100 transition-colors ${
                     index !== 0 ? "border-l-2 border-neutral-700 pl-2" : ""
-                  }  hover:text-neutral-100`}
+                  }  hover:text-neutral-400`}
                   onClick={(e) => {
                     handleScroll(e, items.targetId);
                   }}
@@ -58,7 +58,7 @@ export const Navbar = () => {
         </button>
 
         {isMenuBar && (
-          <ul className="fixed top-17 backdrop-blur-lg left-0 bg-neutral-900 h-auto p-4 gap-4 items-start lg:hidden flex flex-col w-full">
+          <ul className="fixed top-13 backdrop-blur-lg left-0 bg-neutral-900 h-auto p-4 gap-4 items-start lg:hidden flex flex-col w-full">
             {LINKS.map((items, index) => {
               return (
                 <li key={index}>
