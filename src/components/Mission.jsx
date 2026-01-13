@@ -18,7 +18,7 @@ export const Mission = () => {
         ></video>
         <div className="inset-0 absolute  w-full h-full bg-linear-to-b  from-transparent to-black" />
         <div className="inset-0 absolute  w-full h-full flex justify-center items-center">
-          <h3 className="lg:text-4xl max-w-xl text-center text-md">
+          <h3 className="lg:text-4xl   max-w-xl text-center text-md">
             At our restaurant, our mission is to create delicious and memorable
             dining experiences.
           </h3>
